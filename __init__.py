@@ -1,1 +1,1 @@
-from .pyxy import ExchangeRateAPI
+from .pyxr import ExchangeRateAPI

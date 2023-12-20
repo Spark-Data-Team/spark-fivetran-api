@@ -1,17 +1,17 @@
-from setuptools import setup, find_packages
+import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setup(
+setuptools.setup(
     name='spark-exchange-rate-api',
-    version="0.1.0",
+    version="0.1.1",
     author="Larry Page",
     author_email="tech@spark.do",
     description="A Python wrapper for exchangeratesapi.io developed by the Spark Tech team ⭐️",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Spark-Data-Team/spark_exchange_rate_api",
+    url="https://github.com/Spark-Data-Team/spark-exchange-rate-api",
     packages=setuptools.find_packages(),
     install_requires=[
         "requests",
