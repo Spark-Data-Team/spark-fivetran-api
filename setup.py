@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='spark-exchange-rate-api',
-    version="0.1.1",
+    version="0.1.2",
     author="Larry Page",
     author_email="tech@spark.do",
     description="A Python wrapper for exchangeratesapi.io developed by the Spark Tech team ⭐️",
