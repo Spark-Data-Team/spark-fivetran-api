@@ -108,3 +108,6 @@ dmypy.json
 
 # macOS files
 .DS_Store
+
+# File for testing
+test.py
